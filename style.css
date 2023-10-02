@@ -1,0 +1,92 @@
+
+body
+    {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 64px auto 64px;
+    
+    }
+
+#motherbox 
+    {
+    
+    width: 626px; /*altura da "caixa" dos elementos*/
+    margin: 64px auto 64px/*alinhamento de margen da "caixa" dos elementos*/
+    }
+
+#hero img
+    {
+    margin-bottom: 32px; /*espaçamento da imagem para o título*/
+    }
+
+h1 
+    {
+    font-family: 'Dosis', sans-serif;
+    font-size: 32px; /*tamanho da fonte*/
+    line-height: normal; /*altura da linha*/
+    font-weight: 500; /*espessura da fonte*/
+    margin: 32px 30px 16px 16px; /*espaçamento do título para 1º parágrafo ou box
+    parágrafos*/
+    color: #3F3D56;/*cor da fonte*/
+    }
+
+h1 span
+    {
+    font-weight: 700;
+    color: #EE24FF;
+    }
+
+p 
+   {
+    color: #828282;
+    width: 540px;
+    text-align: center;
+    margin: auto;
+    font-size:15px;
+    line-height: 22px;
+    margin:16px 36px 32px 50px;
+       
+   }
+
+   p span 
+   {
+    font-weight: 700;
+    color: #3F3D56;
+   }
+    
+/*#lostson {
+    color: #828282;
+    text-align: justify;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+
+} */  
+
+
+#line {
+
+    width: 391px; /*largura da caixa da linha*/
+    height: 0px; /*altura da caixa da linha*/
+    border: 1px #ECEFF2 solid; /*largura, cor e estilo da linha*/
+    margin: 0 auto 16px;
+    }
+
+#footer a + a {
+    margin-left: 28px; /*colocando margem entre os elementos do link*/
+}
+#footer a {
+    color: #3F3D56; /*cor do texto como um todo*/
+    text-decoration: none;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 700;
+}
+#wave {
+    max-width: 100%;
+    height: auto;
+}
